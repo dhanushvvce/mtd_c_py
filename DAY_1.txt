@@ -1,0 +1,50 @@
+MTD COMPETITVE PROGRAMMING TRAINING
+
+DAY 1 THURSDAY 06-03-2025
+
+IMPORTANT GIT COMMANDS
+
+This repository was created when the training was given by MTD on python and C programming in the month of march.
+
+git status
+//to know the ststus of the folder
+
+git clone https://github.com/neelmyna/vvce_mar25
+//to get into and download already exsisting repository
+
+git pull origin main
+//command to run the updated repo from the server to the local machine
+
+to make our computer recognize our git account, we must run these 2 config commands
+
+git config --global user.name "dhanushvvce"
+
+git config --global user.mail "dhanushn200304@gmail.com"
+
+STEPS T CREATE A NEW PAT IN GITHUB:
+
+login to github 
+right top corner click on your profile
+scroll down and click settings
+next window, scroll down, on top left, click personal access tokens, and click on Next window, on the top left , click personal access tokens,
+click again on classic tokens(now u may b asked to enter the password)
+next, add a note for the new pat we are creating
+select expiry - no expiration
+select the top check box reposcroll down fully anc click on the green generate tokens
+now copy the PAT
+come to0 gmail and mail and PAT to yourself or to one of your account (mail sub: GIT PAT)
+
+Now, let us sync our remote repo with local repoin other words, we are going to CLONE our repo using the PAT.
+By doing so, we can perform READ - WRITE operations on our 
+remote repo without having to authenticate everytime.
+
+git clone https://<PAT>@github.com/dhanushvvce/mtd_c_py
+
+
+Commands required to upload files from local to remote
+
+git add
+//git will mark all the files that need to be updated
+
+git commit -m "notes file of the mtd training will be added"
+//GIT creates an object that will include all the files to be uploaded. and also it's secured(encritpion)
