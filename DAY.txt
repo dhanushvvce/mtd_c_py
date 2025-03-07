@@ -1,0 +1,14 @@
+**DAY 2**
+Arithematic operators: +,-,*,/,%
+
+all are binary operators.
+inputs are numbers 
+optput is numbers
+used with infix notation
+to perform any arithematic operations, DT of both the operands must be same
+left to right associativity w.r.t reading the values/expressions
+for the calculations to happen the programmer given infix expression must be converted to post fix
+the operators must have different heirarchy ( precedence)
+
+relational operators: > < = != >= <=
+logical operators: & && | || !
