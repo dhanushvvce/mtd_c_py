@@ -48,3 +48,6 @@ git add
 
 git commit -m "notes file of the mtd training will be added"
 //GIT creates an object that will include all the files to be uploaded. and also it's secured(encritpion)
+
+
+846693c5ce56437468060ebc353544e0
