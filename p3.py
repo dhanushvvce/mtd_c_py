@@ -1,7 +1,8 @@
-# Accept a number and find its square
-
-print('Enter a number to find its Root')
-input_number = int(input())
-
-root_number = input_number ** 2
-print(f'Square Root of {input_number} is {root_number}')
+n, p = map(int,input("Enter n and p respectively").split())
+prices = list(map(int,input('Enter the shoe prices').split()))
+sum = 0
+prices.sort()
+for i in range(0,p):
+    if prices[i] < 0:
+        sum += prices[i]
+print(sum)

@@ -1,9 +1,8 @@
-# Accept a number and find its square root
-import math
+from math import sqrt
+num1 = int(input("enter the input number"))
+num2 = int(input("enter the input number"))
 
-print('Enter a number to find its Root')
-input_number = int(input())
-
-root_number = math.sqrt(input_number)
-#print('Square Root of', input_number, ' is', root_number)
-print('Square Root of', input_number, ' is ' + str(root_number))
+for i in range(num1,num2+1):
+    for j in range(1,int(sqrt(i))+1):
+        if i % j == 0:
+            list_of_primes.
